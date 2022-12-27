@@ -9,7 +9,6 @@ Open for reading and writing. The file is created if it does not exist. The stre
 
 
 
-asdfg
 
 
 
@@ -144,7 +143,28 @@ len(my_tuple)
 Output
 4
 
-Sets
+Dictionary
+
+# Creating a Dictionary
+# with Integer Keys
+Dict = {1: 'Yash', 2: 'is', 3: 'Good'}
+print("\nDictionary with the use of Integer Keys: ")
+print(Dict)
+# Creating a Dictionary
+# with Mixed keys
+Dict = {'Name': 'Yash', 1: [1, 2, 3, 4]}
+print("\nDictionary with the use of Mixed Keys: ")
+print(Dict)
+
+Output:
+Dictionary with the use of Integer Keys: 
+{1: 'Yash', 2: 'is', 3: 'Good'}
+Dictionary with the use of Mixed Keys: 
+{'Name': 'Yash', 1: [1, 2, 3, 4]}
+
+
+
+
 
 
 
