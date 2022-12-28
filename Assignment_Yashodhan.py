@@ -5,21 +5,22 @@ Opens a file in read and write mode. It creates a new file if it does not exist,
 it erases the contents of the file and the file pointer starts from the beginning.
 a+
 Open for reading and writing. The file is created if it does not exist. The stream is positioned at the end of the file.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Example on r+
+file1=open("a.txt","r+")
+print(file1.read())
+Output
+This is written by the user 
+This is written by the programmer
+Example on w+
+file1=open("a.txt","w+")
+file1.write("This is written by the user \n")
+Output
+29
+Example on a+
+file1=open("a.txt","a+")
+file1.write("This is written by the programmer")
+Output
+33
 
 Lists
 numbers = [1, 2, 5]
